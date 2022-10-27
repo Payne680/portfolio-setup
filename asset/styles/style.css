@@ -55,7 +55,6 @@ h2 {
 footer p {
   justify-content: flex-end;
   font-size: 20px;color: #fff;
-
 }
 
 .welcome-section p {
@@ -76,13 +75,9 @@ section {
   display: block;
 }
 
-section {
-  display: block;
-}
-
 .projects-section-header {
   max-width: 640px;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 6rem;
   border-bottom: 0.2rem solid var(--main-white);
 }
 
@@ -103,7 +98,7 @@ img {
   grid-gap: 4rem;
   width: 100%;
   max-width: 1300px;
-  margin: 0 auto ;
+  margin: 0 auto;
   margin-bottom: auto;
 }
 
@@ -117,7 +112,6 @@ img {
   height: 80vh;
   background:#303841;
 }
-
 
 footer {
   font-weight: 100;
@@ -152,12 +146,12 @@ footer {
 
 @media screen and (max-width: 700px) {
  img {
-    width:100%;
+  width:80%;
 }
 }
 
 @media screen and (max-width: 500px) {
  welcome-section {
   width:113%;
-    }
+}
 }
