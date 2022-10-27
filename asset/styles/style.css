@@ -47,16 +47,17 @@ a {
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   text-align: center;
 }
 
 footer p {
-    justify-content: flex-end;
-    font-size: 20px;color: #fff;
-  }
-  
+  justify-content: flex-end;
+  font-size: 20px;color: #fff;
+
+}
+
 .welcome-section p {
   color: #be3144;
 }
@@ -73,12 +74,6 @@ footer p {
 
 section {
   display: block;
-}
-
-.projects-section {
-  text-align: center;
-  padding: 10rem 2rem;
-  background-color: #45567d ;
 }
 
 section {
@@ -162,8 +157,7 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-    welcome-section {
-        width: 113%;
+ welcome-section {
+  width:113%;
     }
-    
 }
