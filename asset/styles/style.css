@@ -11,12 +11,12 @@ body {
   padding: 0;
   width: 100%;
   max-width: fit-content;
-  }
-        
+}
+
 #navbar {
   display: flex;
-  justify-content:flex-end;
-  background-color:#be3144;
+  justify-content: flex-end;
+  background-color: #be3144;
   padding: 15px;
   gap: 20px;
   width: 98%;
@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  text-decoration: none ;
+  text-decoration: none;
   color: white;
   font-size: large;
 }
@@ -47,20 +47,18 @@ a {
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
-    
 }
+
+footer p {
+    justify-content: flex-end;
+    font-size: 20px;color: #fff;
+  }
+  
 .welcome-section p {
   color: #be3144;
-}
-  font-size: 6rem;
-
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 .projects-section {
@@ -81,11 +79,6 @@ section {
   text-align: center;
   padding: 10rem 2rem;
   background-color: #45567d ;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 section {
@@ -127,7 +120,7 @@ img {
   text-align: center;
   width: 112%;
   height: 80vh;
-  background: #303841;
+  background:#303841;
 }
 
 
@@ -160,11 +153,6 @@ footer {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
-}
-
-footer p {
-  justify-content: flex-end;
-  font-size: 20px;color: #fff;
 }
 
 @media screen and (max-width: 700px) {
